@@ -5,9 +5,6 @@
     margin-left: 20%;
     padding: 0px 10px 0px 20px;
 }
-/* ------------ */
-
-
 
 /* ----header---- */
 .header {
@@ -69,9 +66,6 @@
     color: #000000;
     font-size: 14px;
 }
-/* ------------ */
-
-
 
 /* ----sidebar---- */
 .sidebar {
@@ -155,9 +149,6 @@
 .hoverable:hover .navigation-links {
     background-color: #edeeec;
 }
-/* ------------ */
-
-
 
 /* ----main-content---- */
 .content {
@@ -200,10 +191,6 @@
     box-shadow: 0 0 10px #00000075;
 }
 
-/* .stat-card .details {
-
-} */
-
 .stat-card .value {
     font-size: 24px;
     font-weight: bold;
@@ -234,8 +221,6 @@
 
 /* --table-- */
 .table {
-    /* padding: 0px 25px 0px 25px;
-    justify-content: space-evenly; */
     justify-content: space-evenly;
     margin-right: 10px;
     margin-left: 10px;
@@ -291,9 +276,6 @@ tbody tr:hover {
 .delete-btn {
     color: #ff6f55;
 }
-/* ------------ */
-
-
 
 /* ----600px-screen---- */
 @media only screen and (max-width: 674px) {
@@ -313,4 +295,3 @@ tbody tr:hover {
         width: 295px;
     }
 }
-/* ------------ */
