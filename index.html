@@ -1,249 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script
+			src="https://kit.fontawesome.com/867f3b17eb.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="/assets/css/style.css" />
+	</head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <script src="https://kit.fontawesome.com/867f3b17eb.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-
-<body class="page">
-  <!-- Header -->
-  <header class="header">
-    <form action="#" autocomplete="on" method="get" class="search-bar-form">
-      <input type="search" name="srch" id="srch" placeholder="Search Products, Clients..." class="search-bar"/>
-    </form>
-    <div class="actions">
-      <a href="#settings" class="links">
-        <div class="icon"><i class="fa-solid fa-user-gear"></i></div>
-        <div class="text">Settings</div>
-      </a>
-      <a href="#profile" class="links">
-        <img src="/assets/images/profile.png" alt="P" class="icon">
-        <div class="text">Profile</div>
-      </a>
-    </div>
-  </header>
-  <!-- sidebar -->
-  <aside class="sidebar">
-    <a href="#"><img src="/assets/images/logo.jpg" alt="logo" class="logo" /></a>
-    <nav class="navigation-bar">
-      <a href="#dashboard" class="navigation-links selected">
-        <div class="icon"><i class="fa-solid fa-chart-line"></i></div>
-        <div class="text">Dashboard</div>
-      </a>
-      <div class="hoverable">
-      <a href="#products" class="navigation-links">
-        <div class="icon"><i class="fa-solid fa-file"></i></div>
-        <div class="text">Products<i class="fas fa-caret-right"></i></div>
-      </a>
-        <div class="dropdown">
-          <a href="#">List Products</a>
-          <a href="#">Create Product</a>
-          <a href="#">Products Categories</a>
-        </div>
-      </div>
-      <div class="hoverable">
-      <a href="#orders" class="navigation-links">
-        <div class="icon"><i class="fa-solid fa-cart-shopping"></i></div>
-        <div class="text">Orders<i class="fas fa-caret-right"></i></div>
-      </a>
-        <div class="dropdown">
-          <a href="#">List Order</a>
-          <a href="#">Create Order</a>
-          <a href="#">Manage Status</a>
-        </div>
-      </div>
-      <a href="#clients" class="navigation-links">
-        <div class="icon"><i class="fa-solid fa-user-tie"></i></div>
-        <div class="text">Clients</div>
-      </a>
-      <a href="#users" class="navigation-links">
-        <div class="icon"><i class="fa-solid fa-user"></i></div>
-        <div class="text">Users</div>
-      </a>
-      <a href="#settings" class="navigation-links">
-        <div class="icon"><i class="fa-solid fa-gear"></i></div>
-        <div class="text">Settings</div>
-      </a>
-    </nav>
-  </aside>
-  <!-- Main content -->
-  <main class="main">
-    <!-- Stats -->
-    <section class="content">
-      <div class="title">
-        <h3>Statistiques</h3>
-      </div>
-      <div class="stats">
-        <article class="stat-card blue">
-          <img src="assets/icons/cloud_symbol.png" alt="" class="icon">
-          <div class="details">
-            <h3 class="value">20,100</h3>
-            <p class="desc">Selled Products</p>
-          </div>
-        </article>
-        <article class="stat-card blue">
-          <div class="icon"><i class="fa-solid fa-cart-shopping"></i></div>
-          <div class="details">
-            <h3 class="value">490</h3>
-            <p class="desc">Orders</p>
-          </div>
-        </article>
-        <article class="stat-card gray">
-          <div class="icon"><i class="fa-regular fa-user"></i></div>
-          <div class="details">
-            <h3 class="value">235</h3>
-            <p class="desc">Clients</p>
-          </div>
-        </article>
-      </div>
-    </section>
-    <!-- Table 1 -->
-    <section class="content">
-      <div class="title">
-        <h3>Latest Orders</h3>
-      </div>
-      <div class="table">
-        <table>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Client</th>
-              <th>Count Products</th>
-              <th>Price</th>
-              <th></th>
-              <th></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>234</td>
-              <td>Amin Saidi</td>
-              <td>3 Products</td>
-              <td>450 MAD</td>
-              <td>
-                <a href="#" class="action-btn edit-btn">
-                    <i class="fa-solid fa-pencil"></i>Edit
-                </a>
-              </td>
-              <td>
-                <a href="#" class="action-btn delete-btn">
-                    <i class="fa-solid fa-trash"></i>Delete
-                </a>
-            </td>
-            </tr>
-            <tr>
-              <td>234</td>
-              <td>Amin Saidi</td>
-              <td>3 Products</td>
-              <td>450 MAD</td>
-              <td>
-                <a href="#" class="action-btn edit-btn">
-                    <i class="fa-solid fa-pencil"></i>Edit
-                </a>
-              </td>
-              <td>
-                <a href="#" class="action-btn delete-btn">
-                    <i class="fa-solid fa-trash"></i>Delete
-                </a>
-            </td>
-            </tr>
-            <tr>
-              <td>234</td>
-              <td>Amin Saidi</td>
-              <td>3 Products</td>
-              <td>450 MAD</td>
-              <td>
-                <a href="#" class="action-btn edit-btn">
-                    <i class="fa-solid fa-pencil"></i>Edit
-                </a>
-              </td>
-              <td>
-                <a href="#" class="action-btn delete-btn">
-                    <i class="fa-solid fa-trash"></i>Delete
-                </a>
-            </td>
-            </tr>
-            <tr>
-              <td>234</td>
-              <td>Amin Saidi</td>
-              <td>3 Products</td>
-              <td>450 MAD</td>
-              <td>
-                <a href="#" class="action-btn edit-btn">
-                    <i class="fa-solid fa-pencil"></i>Edit
-                </a>
-              </td>
-              <td>
-                <a href="#" class="action-btn delete-btn">
-                    <i class="fa-solid fa-trash"></i>Delete
-                </a>
-            </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-    <!-- Table 2 -->
-    <section class="content">
-      <div class="title">
-        <h3>Latest Products</h3>
-      </div>
-      <div class="table">
-        <table>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Title</th>
-              <th>Price</th>
-              <th>Stock</th>
-              <th></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>43</td>
-              <td>PC Portable</td>
-              <td>4500 MAD</td>
-              <td>20 units</td>
-              <td>
-                <a href="#" class="action-btn edit-btn">
-                    <i class="fa-solid fa-pencil"></i>Edit
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>43</td>
-              <td>PC Portable</td>
-              <td>4500 MAD</td>
-              <td>20 units</td>
-              <td>
-                <a href="#" class="action-btn edit-btn">
-                    <i class="fa-solid fa-pencil"></i>Edit
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>43</td>
-              <td>PC Portable</td>
-              <td>4500 MAD</td>
-              <td>20 units</td>
-              <td>
-                <a href="#" class="action-btn edit-btn">
-                    <i class="fa-solid fa-pencil"></i>Edit
-                </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-    <!-- for scrolling -->
-    <!-- comment to disable -->
-    <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
-  </main>
-</body>
+	<body class="page">
+		<!-- Header -->
+		<header class="header">
+			<form action="#" autocomplete="on" method="get" class="search-bar-form">
+				<input
+					type="search"
+					name="srch"
+					id="srch"
+					placeholder="Search Products, Clients..."
+					class="search-bar"
+				/>
+			</form>
+			<div class="actions">
+				<a href="#settings" class="links">
+					<div class="icon"><i class="fa-solid fa-user-gear"></i></div>
+					<div class="text">Settings</div>
+				</a>
+				<a href="#profile" class="links">
+					<img src="/assets/images/profile.png" alt="P" class="icon" />
+					<div class="text">Profile</div>
+				</a>
+			</div>
+		</header>
+		<!-- sidebar -->
+		<aside class="sidebar">
+			<a href="#"
+				><img src="/assets/images/logo.jpg" alt="logo" class="logo"
+			/></a>
+			<nav class="navigation-bar">
+				<a href="#dashboard" class="navigation-links selected">
+					<div class="icon"><i class="fa-solid fa-chart-line"></i></div>
+					<div class="text">Dashboard</div>
+				</a>
+				<div class="hoverable">
+					<a href="#products" class="navigation-links">
+						<div class="icon"><i class="fa-solid fa-file"></i></div>
+						<div class="text">Products<i class="fas fa-caret-right"></i></div>
+					</a>
+					<div class="dropdown">
+						<a href="#">List Products</a>
+						<a href="#">Create Product</a>
+						<a href="#">Products Categories</a>
+					</div>
+				</div>
+				<div class="hoverable">
+					<a href="#orders" class="navigation-links">
+						<div class="icon"><i class="fa-solid fa-cart-shopping"></i></div>
+						<div class="text">Orders<i class="fas fa-caret-right"></i></div>
+					</a>
+					<div class="dropdown">
+						<a href="#">List Order</a>
+						<a href="#">Create Order</a>
+						<a href="#">Manage Status</a>
+					</div>
+				</div>
+				<a href="#clients" class="navigation-links">
+					<div class="icon"><i class="fa-solid fa-user-tie"></i></div>
+					<div class="text">Clients</div>
+				</a>
+				<a href="#users" class="navigation-links">
+					<div class="icon"><i class="fa-solid fa-user"></i></div>
+					<div class="text">Users</div>
+				</a>
+				<a href="#settings" class="navigation-links">
+					<div class="icon"><i class="fa-solid fa-gear"></i></div>
+					<div class="text">Settings</div>
+				</a>
+			</nav>
+		</aside>
+		<!-- Main content -->
+		<main class="main">
+			<!-- Stats -->
+			<section class="content">
+				<div class="title">
+					<h3>Statistiques</h3>
+				</div>
+				<div class="stats">
+					<article class="stat-card blue">
+						<img src="assets/icons/cloud_symbol.png" alt="" class="icon" />
+						<div class="details">
+							<h3 class="value">20,100</h3>
+							<p class="desc">Selled Products</p>
+						</div>
+					</article>
+					<article class="stat-card blue">
+						<div class="icon"><i class="fa-solid fa-cart-shopping"></i></div>
+						<div class="details">
+							<h3 class="value">490</h3>
+							<p class="desc">Orders</p>
+						</div>
+					</article>
+					<article class="stat-card gray">
+						<div class="icon"><i class="fa-regular fa-user"></i></div>
+						<div class="details">
+							<h3 class="value">235</h3>
+							<p class="desc">Clients</p>
+						</div>
+					</article>
+				</div>
+			</section>
+			<!-- Table 1 -->
+			<section class="content">
+				<div class="title">
+					<h3>Latest Orders</h3>
+				</div>
+				<div class="table">
+					<table>
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>Client</th>
+								<th>Count Products</th>
+								<th>Price</th>
+								<th></th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>234</td>
+								<td>Amin Saidi</td>
+								<td>3 Products</td>
+								<td>450 MAD</td>
+								<td>
+									<a href="#" class="action-btn edit-btn">
+										<i class="fa-solid fa-pencil"></i>Edit
+									</a>
+								</td>
+								<td>
+									<a href="#" class="action-btn delete-btn">
+										<i class="fa-solid fa-trash"></i>Delete
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>234</td>
+								<td>Amin Saidi</td>
+								<td>3 Products</td>
+								<td>450 MAD</td>
+								<td>
+									<a href="#" class="action-btn edit-btn">
+										<i class="fa-solid fa-pencil"></i>Edit
+									</a>
+								</td>
+								<td>
+									<a href="#" class="action-btn delete-btn">
+										<i class="fa-solid fa-trash"></i>Delete
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>234</td>
+								<td>Amin Saidi</td>
+								<td>3 Products</td>
+								<td>450 MAD</td>
+								<td>
+									<a href="#" class="action-btn edit-btn">
+										<i class="fa-solid fa-pencil"></i>Edit
+									</a>
+								</td>
+								<td>
+									<a href="#" class="action-btn delete-btn">
+										<i class="fa-solid fa-trash"></i>Delete
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>234</td>
+								<td>Amin Saidi</td>
+								<td>3 Products</td>
+								<td>450 MAD</td>
+								<td>
+									<a href="#" class="action-btn edit-btn">
+										<i class="fa-solid fa-pencil"></i>Edit
+									</a>
+								</td>
+								<td>
+									<a href="#" class="action-btn delete-btn">
+										<i class="fa-solid fa-trash"></i>Delete
+									</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+			<!-- Table 2 -->
+			<section class="content">
+				<div class="title">
+					<h3>Latest Products</h3>
+				</div>
+				<div class="table">
+					<table>
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>Title</th>
+								<th>Price</th>
+								<th>Stock</th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>43</td>
+								<td>PC Portable</td>
+								<td>4500 MAD</td>
+								<td>20 units</td>
+								<td>
+									<a href="#" class="action-btn edit-btn">
+										<i class="fa-solid fa-pencil"></i>Edit
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>43</td>
+								<td>PC Portable</td>
+								<td>4500 MAD</td>
+								<td>20 units</td>
+								<td>
+									<a href="#" class="action-btn edit-btn">
+										<i class="fa-solid fa-pencil"></i>Edit
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>43</td>
+								<td>PC Portable</td>
+								<td>4500 MAD</td>
+								<td>20 units</td>
+								<td>
+									<a href="#" class="action-btn edit-btn">
+										<i class="fa-solid fa-pencil"></i>Edit
+									</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+		</main>
+	</body>
 </html>
